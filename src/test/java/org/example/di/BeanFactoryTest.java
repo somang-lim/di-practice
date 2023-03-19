@@ -18,6 +18,7 @@ class BeanFactoryTest {
 	private Reflections reflections;
 	private BeanFactory beanFactory;
 
+	// 테스트 메서드 실행 이전에 수행되는 메서드
 	@BeforeEach
 	void setUp() {
 		// Reflections 기술을 사용해서 "org.example" 패키지 아래를 주목한다.
